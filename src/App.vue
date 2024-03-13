@@ -1,8 +1,8 @@
 <script setup>
-import Header from "./components/Header.vue"
+import Header from './Header.vue';
+import HomePage from './components/home-page/HomePage.vue';
 </script>
 <template>
-	<div>
-		<Header />
-	</div>
+	<Header />
+	<HomePage />
 </template>
